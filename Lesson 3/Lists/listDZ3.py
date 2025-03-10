@@ -4,7 +4,7 @@ middle_lists = len(numbers) // 2
 
 if len(numbers) % 2 != 0:
     middle_lists += 1
-print(middle_lists)
+
 first_part_lists = numbers[:middle_lists]
 second_part_lists = numbers[middle_lists:]
 
