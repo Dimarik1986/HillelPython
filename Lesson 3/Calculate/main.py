@@ -21,4 +21,4 @@ while start_program == "Yes":
             result = number1 - number2
             print(result)
 
-    start_program = str(input("Let's continue?: "))
+    start_program = str(input("If you want to continue, enter \"Yes\": "))
