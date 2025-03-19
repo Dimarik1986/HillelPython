@@ -9,7 +9,7 @@ for total_second in total_seconds:
 
     hours = total_second % x//y
 
-    minutes = (total_second % 3600) // 60
+    minutes = (total_second % y) // 60
     seconds = total_second % 60
 
     print(f"{total_second}, -> ,{days} days, {hours}:{minutes}:{seconds}")
